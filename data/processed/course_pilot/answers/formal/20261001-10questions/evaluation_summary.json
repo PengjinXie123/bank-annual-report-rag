@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "正确": 6,
+    "部分正确": 3,
+    "错误": 1
+  },
+  "strict_accuracy": 0.6,
+  "question_count": 10,
+  "technical_completed_count": 10,
+  "prompt_tokens": 36311,
+  "completion_tokens": 3911,
+  "total_tokens": 40222,
+  "summed_question_elapsed_seconds": 25.397,
+  "coverage": {
+    "Q9": {
+      "recall_bank_count": 4,
+      "effective_answer_bank_count": 3,
+      "expected_bank_count": 10
+    },
+    "Q10": {
+      "recall_bank_count": 5,
+      "effective_answer_bank_count": 3,
+      "expected_bank_count": 10
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>银行年报问答 · 2025</title><link rel="stylesheet" href="/style.css">
+  <script src="/sky.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true">研</span><div><strong>银行年报问答</strong><span>BANK ANNUAL REPORTS · 2025</span></div></div><span class="top-label">人工智能课程 · 方向 A</span></header>
+  <main class="shell">
+    <section class="intro"><div><p class="eyebrow">从报告中寻找答案</p><h1>问一个问题，查看它的依据。</h1><p class="intro-copy" id="corpus-description">正在加载年报范围…</p></div><div class="corpus"><strong id="chunk-count">—</strong><span>可检索原文块</span><span class="service" id="service-status">正在连接服务</span></div></section>
+    <section class="sky-panel" aria-labelledby="sky-heading">
+      <div class="sky-heading"><div><p class="eyebrow">探索年报知识库</p><h2 id="sky-heading">知识星空 <span id="sky-total">正在加载…</span></h2></div><button type="button" class="secondary" id="sky-toggle" aria-expanded="true" aria-controls="sky-body">收起星空</button></div>
+      <div id="sky-body">
+        <p class="sky-caption">每颗星代表一个年报切块，颜色区分银行。拖动平移，滚轮或按钮缩放，点击星点查看原文。</p>
+        <div class="sky-toolbar"><div><label for="sky-bank">星空图银行范围</label><select id="sky-bank"><option value="">全部银行</option></select></div><div class="sky-actions"><button type="button" class="secondary" id="sky-zoom-in" aria-label="放大星空图">＋</button><button type="button" class="secondary" id="sky-zoom-out" aria-label="缩小星空图">−</button><button type="button" class="secondary" id="sky-reset">重置视图</button><button type="button" class="secondary" id="sky-recall" disabled>定位召回</button></div></div>
+        <div class="sky-layout"><div class="sky-stage"><canvas id="sky-canvas" tabindex="0" aria-label="年报切块星空图，可用方向键平移，加减键缩放">星空图需要浏览器支持Canvas；可使用下方切块编号输入框查看原文。</canvas><div class="sky-overlay"><span id="sky-view-status" role="status">正在准备星空…</span><span>亮圈标记召回证据</span></div><div id="sky-tooltip" class="sky-tooltip" hidden></div></div>
+          <aside class="sky-detail"><h3>星点原文</h3><label for="sky-chunk-id">按切块编号查看</label><form id="sky-chunk-form"><input id="sky-chunk-id" placeholder="点击星点或输入完整块ID" autocomplete="off"><button type="submit" class="secondary">查看</button></form><p id="sky-selection-status" role="status">点击任意星点，查看银行、出处和原文。提问后，本次召回的星点会亮起。</p><div id="sky-selected" hidden><h4 id="sky-selected-title"></h4><p id="sky-selected-meta"></p><pre id="sky-selected-content"></pre><div class="sky-detail-links"><a id="sky-selected-report" target="_blank" rel="noopener">打开原报告 ↗</a><button id="sky-selected-evidence" type="button" class="secondary" hidden>查看本轮证据</button></div></div></aside>
+        </div><div class="sky-legend" id="sky-legend" aria-label="银行颜色图例"></div><p class="sky-footnote">星点位置来自真实向量的二维PCA投影，距离仅供概览；问答仍使用原始1024维向量和BM25检索。</p><p id="sky-recall-status" class="sky-recall-status" role="status">尚未选择问答记录。</p>
+      </div>
+    </section>
+    <div class="workspace">
+      <aside class="sidebar">
+        <section class="panel question-panel"><div class="panel-title"><h2>提问</h2><span class="small-tag">2025 年报</span></div>
+          <form id="question-form"><label for="question">你想了解什么？</label><textarea id="question" name="question" rows="5" maxlength="2000" placeholder="例如：比较工商银行和建设银行2025年的核心一级资本充足率。" required></textarea>
+            <div class="field-row"><div><label for="company">银行范围</label>
+              <select id="company">
+                <option value="">全部银行</option>
+              </select>
+            </div><div><label for="top-k">召回块数</label><select id="top-k"><option value="6">6 块</option><option value="8">8 块</option><option value="10">10 块</option></select></div></div>
+            <label for="mode">检索方式</label><select id="mode"><option value="hybrid">混合检索 · 向量 + BM25</option><option value="vector">向量检索</option><option value="bm25">BM25 关键词检索</option></select>
+            <button id="ask-button" class="primary" type="submit">生成回答 <span aria-hidden="true">↗</span></button><p id="request-status" class="request-status" role="status" aria-live="polite">输入问题后，回答将附上原文出处。</p>
+          </form>
+          <div class="examples"><h3>试试这些问题</h3><button type="button" data-example="0">工行的营业收入与净利润</button><button type="button" data-example="1">建行的不良贷款率</button><button type="button" data-example="2">两家银行的资本充足率比较</button></div>
+        </section>
+        <section class="panel history-panel"><div class="panel-title"><h2>问答记录</h2><span class="subtle">本地保存</span></div><p class="hint">点击查看已保存的回答。</p><div id="history-list" class="history-list"><p class="hint">正在读取记录…</p></div></section>
+      </aside>
+      <div class="results">
+        <section class="panel answer-panel" aria-labelledby="answer-heading"><div class="panel-title"><h2 id="answer-heading">回答</h2><span id="answer-badge" class="small-tag">等待提问</span></div>
+          <div id="empty-state" class="empty-state"><div class="empty-icon" aria-hidden="true">↗</div><h3>让结论有迹可循</h3><p>选择银行范围并提出问题。<br>回答、引用出处和召回原文会显示在这里。</p><div class="empty-flow"><span>提出问题</span><span>检索年报</span><span>查看证据</span></div></div>
+          <div id="answer-result" hidden><h3 id="answered-question" class="answered-question"></h3><div id="answer-content" class="answer-content"></div><div id="answer-note" class="answer-note" hidden></div><div class="answer-footer"><span id="answer-meta"></span><a id="export-record" class="text-link" href="#" download>下载本次记录 ↓</a></div></div>
+        </section>
+        <section id="sources-panel" class="panel" hidden><div class="panel-title"><h2>引用出处</h2><span id="citation-status" class="subtle"></span></div><p class="hint">点击证据编号查看召回原文；“原报告”可定位到对应PDF页。</p><div id="source-list" class="source-list"></div></section>
+        <section id="evidence-panel" class="evidence-panel" hidden><div class="evidence-header"><div><p class="eyebrow">回到原文</p><h2>本轮召回证据 <span id="evidence-count"></span></h2></div><button id="expand-all" type="button" class="secondary">展开全部</button></div><div id="evidence-list" class="evidence-grid"></div></section>
+      </div>
+    </div>
+    <footer class="page-footer"><span id="corpus-scope">课程作业 · 年报全文</span><span>回答可能出错，请结合引用原文核对。</span></footer>
+  </main>
+</body>
+</html>

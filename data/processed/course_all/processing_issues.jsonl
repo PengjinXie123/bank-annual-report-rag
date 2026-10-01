@@ -1,0 +1,185 @@
+{"company": "工商银行", "pdf_page": 192, "reason": "four-column year header not found", "kind": "statement_layout"}
+{"company": "工商银行", "pdf_page": 5, "table_id": "601398-p0005-t01", "reason": "directory_or_front_matter", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 207, "table_id": "601398-p0207-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 273, "table_id": "601398-p0273-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 275, "table_id": "601398-p0275-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 280, "table_id": "601398-p0280-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 281, "table_id": "601398-p0281-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 291, "table_id": "601398-p0291-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 301, "table_id": "601398-p0301-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 311, "table_id": "601398-p0311-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 312, "table_id": "601398-p0312-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 322, "table_id": "601398-p0322-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 324, "table_id": "601398-p0324-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 343, "table_id": "601398-p0343-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 344, "table_id": "601398-p0344-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 345, "table_id": "601398-p0345-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 346, "table_id": "601398-p0346-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 393, "table_id": "601398-p0393-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "工商银行", "pdf_page": 395, "table_id": "601398-p0395-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 179, "reason": "four-column year header not found", "kind": "statement_layout"}
+{"company": "建设银行", "pdf_page": 3, "table_id": "601939-p0003-t01", "reason": "directory_or_front_matter", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 24, "table_id": "601939-p0024-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 227, "table_id": "601939-p0227-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 236, "table_id": "601939-p0236-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 244, "table_id": "601939-p0244-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 247, "table_id": "601939-p0247-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 250, "table_id": "601939-p0250-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 254, "table_id": "601939-p0254-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 263, "table_id": "601939-p0263-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 319, "table_id": "601939-p0319-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 320, "table_id": "601939-p0320-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "建设银行", "pdf_page": 326, "table_id": "601939-p0326-t01", "reason": "many_broken_parentheses", "kind": "candidate_excluded"}
+{"company": "农业银行", "pdf_page": 5, "kind": "candidate_excluded", "reason": "prose_detected_in_cells"}
+{"company": "农业银行", "pdf_page": 91, "kind": "candidate_excluded", "reason": "prose_detected_in_cells"}
+{"company": "农业银行", "pdf_page": 92, "kind": "candidate_excluded", "reason": "prose_detected_in_cells"}
+{"company": "农业银行", "pdf_page": 146, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "农业银行", "pdf_page": 160, "kind": "statement_layout", "reason": "layout rejected: 14 rows, 14 issues"}
+{"company": "农业银行", "pdf_page": 205, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 256, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 281, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 282, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 306, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 360, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 362, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 366, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 368, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 370, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 374, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 405, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 407, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "农业银行", "pdf_page": 412, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 111, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "中国银行", "pdf_page": 119, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "中国银行", "pdf_page": 167, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 182, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 183, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 192, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 193, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 202, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 203, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 205, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 206, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 207, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 208, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 212, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 213, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 243, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 248, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 252, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "中国银行", "pdf_page": 259, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 264, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 265, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 271, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 337, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 338, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 339, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中国银行", "pdf_page": 347, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 144, "kind": "statement_layout", "reason": "layout rejected: 19 rows, 4 issues"}
+{"company": "交通银行", "pdf_page": 151, "kind": "statement_layout", "reason": "layout rejected: 13 rows, 3 issues"}
+{"company": "交通银行", "pdf_page": 171, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "交通银行", "pdf_page": 219, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 220, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 223, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 227, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 231, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 235, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 270, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 275, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 277, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 278, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 298, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 300, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 306, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 307, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 308, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 311, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 337, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 339, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 343, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "交通银行", "pdf_page": 345, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 120, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "招商银行", "pdf_page": 127, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "招商银行", "pdf_page": 131, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "招商银行", "pdf_page": 135, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "招商银行", "pdf_page": 135, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 136, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 137, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 138, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 180, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 181, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 182, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 189, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 191, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 199, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 212, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "招商银行", "pdf_page": 213, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "兴业银行", "pdf_page": 2, "kind": "empty_page", "reason": "no_extractable_text"}
+{"company": "兴业银行", "pdf_page": 204, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "兴业银行", "pdf_page": 330, "kind": "candidate_excluded", "reason": "prose_detected_in_cells"}
+{"company": "浦发银行", "pdf_page": 1, "kind": "empty_page", "reason": "no_extractable_text"}
+{"company": "浦发银行", "pdf_page": 2, "kind": "empty_page", "reason": "no_extractable_text"}
+{"company": "浦发银行", "pdf_page": 17, "kind": "candidate_excluded", "reason": "directory_or_front_matter"}
+{"company": "浦发银行", "pdf_page": 157, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 158, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 159, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 160, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 160, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 161, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 162, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 163, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 164, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 165, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 231, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 232, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 245, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 247, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 248, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 272, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 320, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 325, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 327, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 328, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 329, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 329, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 330, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 330, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 331, "kind": "statement_layout", "reason": "not enough aligned numerical rows"}
+{"company": "浦发银行", "pdf_page": 335, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "浦发银行", "pdf_page": 363, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "浦发银行", "pdf_page": 407, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中信银行", "pdf_page": 242, "kind": "statement_layout", "reason": "layout rejected: 17 rows, 4 issues"}
+{"company": "中信银行", "pdf_page": 244, "kind": "statement_layout", "reason": "layout rejected: 19 rows, 7 issues"}
+{"company": "中信银行", "pdf_page": 275, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "中信银行", "pdf_page": 312, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中信银行", "pdf_page": 315, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中信银行", "pdf_page": 331, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "中信银行", "pdf_page": 335, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中信银行", "pdf_page": 375, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中信银行", "pdf_page": 382, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "中信银行", "pdf_page": 436, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "平安银行", "pdf_page": 66, "kind": "candidate_excluded", "reason": "not_a_numeric_table"}
+{"company": "平安银行", "pdf_page": 99, "kind": "candidate_excluded", "reason": "prose_detected_in_cells"}
+{"company": "平安银行", "pdf_page": 100, "kind": "candidate_excluded", "reason": "prose_detected_in_cells"}
+{"company": "平安银行", "pdf_page": 104, "kind": "candidate_excluded", "reason": "prose_detected_in_cells"}
+{"company": "平安银行", "pdf_page": 109, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 110, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 116, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 117, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 118, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 119, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 120, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 121, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 122, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 123, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 128, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 129, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 130, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 131, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 132, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 133, "kind": "statement_layout", "reason": "four-column year header not found"}
+{"company": "平安银行", "pdf_page": 183, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "平安银行", "pdf_page": 184, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "平安银行", "pdf_page": 186, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "平安银行", "pdf_page": 286, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}
+{"company": "平安银行", "pdf_page": 287, "kind": "candidate_excluded", "reason": "many_broken_parentheses"}

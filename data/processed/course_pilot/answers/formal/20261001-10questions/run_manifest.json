@@ -1,0 +1,344 @@
+{
+  "started_at": "2026-10-01T18:58:14.002519+08:00",
+  "status": "finished",
+  "reference_sha256": "fcfd7d21b02c576754ee466402041dde9873198b68e8ae164309c11c38ca0353",
+  "questions_sha256": "efbe065a005e4bd3441f09242a674c7b6578971498c0cdc2547c1760ed6b8aac",
+  "index_manifest": {
+    "status": "ready",
+    "created_at": "2026-10-01T17:54:49.010239+08:00",
+    "corpus_sha256": "2451b1e302769ec7629b348c1c44676c762b437380af3f92f2ec72eadd328984",
+    "model": "text-embedding-v4",
+    "dimension": 1024,
+    "text_type": "document",
+    "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/embeddings/text-embedding/text-embedding",
+    "tokenizer": "jieba-0.42.1-search-hmm-false-finance-v1",
+    "chunk_count": 12520,
+    "batch_size": 10,
+    "vector_metric": "cosine; L2-normalized float32 dot product",
+    "bm25": {
+      "library": "rank-bm25==0.2.2",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25
+    },
+    "seed_index": "D:\\研一上课程作业\\人工智能\\第三次作业\\data\\indexes\\course_pilot",
+    "finished_at": "2026-10-01T18:02:54.981719+08:00",
+    "elapsed_seconds": 485.97,
+    "total_batches": 1252,
+    "cached_batches": 0,
+    "new_batches": 1005,
+    "seeded_vectors": 2477,
+    "document_tokens": 5521036,
+    "newly_requested_document_tokens": 5521036,
+    "document_tokens_scope": "API token counts for newly encoded documents, including cached batches; excludes seeded vectors",
+    "vector_shape": [
+      12520,
+      1024
+    ],
+    "vectors_sha256": "773414b1736f188674ea9cbd7b4c00e6db610df71aa55a780f7b60bb1552d566",
+    "bm25_sha256": "c784dc19b559784b89b0e0de8f1468278a27bf817692158dc62165d3c424e944",
+    "companies": [
+      "中信银行",
+      "中国银行",
+      "交通银行",
+      "兴业银行",
+      "农业银行",
+      "工商银行",
+      "平安银行",
+      "建设银行",
+      "招商银行",
+      "浦发银行"
+    ]
+  },
+  "mode": "hybrid",
+  "top_k": 6,
+  "candidate_k": 10,
+  "rrf_constant": 60,
+  "report_year": 2025,
+  "answer_parameters": {
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0.1,
+    "max_tokens": 1800,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": false
+  },
+  "method": "逐题一次正式生成；仅服务层临时网络错误按既有客户端重试。不给模型参照答案，不改写原回答。",
+  "finished_at": "2026-10-01T18:58:39.488705+08:00",
+  "results": [
+    {
+      "id": "Q1",
+      "query": "工商银行2025年集团口径的营业收入和净利润分别是多少？请注明单位和出处。",
+      "status": "completed",
+      "recall_companies": [
+        "工商银行"
+      ],
+      "record": "Q1.json",
+      "elapsed_seconds": 1.919,
+      "usage": {
+        "prompt_tokens": 3542,
+        "completion_tokens": 112,
+        "total_tokens": 3654,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 2390
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q2",
+      "query": "建设银行2025年末资产总额是多少？相比2024年末增加了多少，增长率是多少？请列出计算依据和出处。",
+      "status": "completed",
+      "recall_companies": [
+        "建设银行"
+      ],
+      "record": "Q2.json",
+      "elapsed_seconds": 1.688,
+      "usage": {
+        "prompt_tokens": 3520,
+        "completion_tokens": 121,
+        "total_tokens": 3641,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3392
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q3",
+      "query": "农业银行2025年末的不良贷款率和拨备覆盖率分别是多少？相比2024年末各变化了多少个百分点？",
+      "status": "completed",
+      "recall_companies": [
+        "农业银行"
+      ],
+      "record": "Q3.json",
+      "elapsed_seconds": 1.255,
+      "usage": {
+        "prompt_tokens": 3669,
+        "completion_tokens": 111,
+        "total_tokens": 3780,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3541
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q4",
+      "query": "中国银行2025年末集团口径的核心一级资本充足率和资本充足率分别是多少？请给出出处。",
+      "status": "completed",
+      "recall_companies": [
+        "中国银行"
+      ],
+      "record": "Q4.json",
+      "elapsed_seconds": 1.599,
+      "usage": {
+        "prompt_tokens": 3786,
+        "completion_tokens": 102,
+        "total_tokens": 3888,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3658
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q5",
+      "query": "招商银行2025年的净利息收益率相比2024年如何变化？年报如何解释这种变化？",
+      "status": "completed",
+      "recall_companies": [
+        "招商银行"
+      ],
+      "record": "Q5.json",
+      "elapsed_seconds": 2.105,
+      "usage": {
+        "prompt_tokens": 3062,
+        "completion_tokens": 286,
+        "total_tokens": 3348,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 2934
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q6",
+      "query": "兴业银行2025年报披露了哪些绿色金融业务举措？请列举至少3项，并给出相关业务数据及出处；证据不足时明确说明。",
+      "status": "completed",
+      "recall_companies": [
+        "兴业银行"
+      ],
+      "record": "Q6.json",
+      "elapsed_seconds": 4.007,
+      "usage": {
+        "prompt_tokens": 3574,
+        "completion_tokens": 999,
+        "total_tokens": 4573,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3446
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q7",
+      "query": "比较交通银行与中信银行2025年的营业收入和归属于母公司股东的净利润：分别是多少、同比如何变化？请保持单位和统计口径一致，并分别引用两家年报。",
+      "status": "completed",
+      "recall_companies": [
+        "中信银行",
+        "中国银行",
+        "交通银行",
+        "工商银行",
+        "浦发银行"
+      ],
+      "record": "Q7.json",
+      "elapsed_seconds": 2.286,
+      "usage": {
+        "prompt_tokens": 3651,
+        "completion_tokens": 330,
+        "total_tokens": 3981,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3523
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q8",
+      "query": "仅依据本知识库中的2025年度报告，能否得知平安银行2026年第三季度的实际净利润？请说明依据，不要用预测值代替实际值。",
+      "status": "completed",
+      "recall_companies": [
+        "平安银行"
+      ],
+      "record": "Q8.json",
+      "elapsed_seconds": 2.331,
+      "usage": {
+        "prompt_tokens": 3704,
+        "completion_tokens": 168,
+        "total_tokens": 3872,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3576
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q9",
+      "query": "汇总本知识库中10家银行2025年末的不良贷款率，按从低到高排序，指出最高和最低的银行。逐家注明统计口径、报告页码；没有找到可靠证据的银行单独列出，不要补造数据。",
+      "status": "completed",
+      "recall_companies": [
+        "中信银行",
+        "农业银行",
+        "工商银行",
+        "建设银行"
+      ],
+      "record": "Q9.json",
+      "elapsed_seconds": 2.706,
+      "usage": {
+        "prompt_tokens": 3900,
+        "completion_tokens": 451,
+        "total_tokens": 4351,
+        "prompt_tokens_details": {
+          "cached_tokens": 3712
+        },
+        "prompt_cache_hit_tokens": 3712,
+        "prompt_cache_miss_tokens": 188
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    },
+    {
+      "id": "Q10",
+      "query": "综合10家银行2025年报，各家如何描述净息差或净利息收益率的变化及其原因？采取了哪些应对措施？先逐家列出证据，再归纳共同点和差异，并明确实际覆盖及缺少证据的银行。",
+      "status": "completed",
+      "recall_companies": [
+        "中国银行",
+        "农业银行",
+        "工商银行",
+        "平安银行",
+        "招商银行"
+      ],
+      "record": "Q10.json",
+      "elapsed_seconds": 5.501,
+      "usage": {
+        "prompt_tokens": 3903,
+        "completion_tokens": 1231,
+        "total_tokens": 5134,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 3775
+      },
+      "answer_model": {
+        "requested_model": "deepseek-v4-flash",
+        "base_url": "https://api.deepseek.com",
+        "credential_source": ".env",
+        "returned_model": "deepseek-flash"
+      }
+    }
+  ]
+}

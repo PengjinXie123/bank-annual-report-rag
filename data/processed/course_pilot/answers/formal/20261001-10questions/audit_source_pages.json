@@ -1,0 +1,187 @@
+{
+  "purpose": "正式运行后复核实际引用的原PDF页，未改变冻结的参照答案或原始回答",
+  "pages": [
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "pdf_page": 14,
+      "text_file": "audit_pages\\601398-p0014.txt",
+      "text_sha256": "23329f9311ccec1926cc6eb0305e8cbfd2ec929782ca020ed1c0aad7449514e6"
+    },
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "pdf_page": 21,
+      "text_file": "audit_pages\\601398-p0021.txt",
+      "text_sha256": "b3e723141b32cf17ddfddfab3c3ed4f80b886314a9beb1c2fa0abb841c1550b1"
+    },
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "pdf_page": 26,
+      "text_file": "audit_pages\\601398-p0026.txt",
+      "text_sha256": "d4c2afb35e771e57d352c5f3a54395d30455d96b0a1d0342f993ec3888396f10"
+    },
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "pdf_page": 28,
+      "text_file": "audit_pages\\601398-p0028.txt",
+      "text_sha256": "c86ef1a1e9d28e650d16e8b449ba555a1176996e5f0c3e48c3c4b7aee8c5f63f"
+    },
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "pdf_page": 85,
+      "text_file": "audit_pages\\601398-p0085.txt",
+      "text_sha256": "fd234352301d6aaf3d68ec63edf95bd199b0730fabe239a8a0f3498544c797db"
+    },
+    {
+      "company": "建设银行",
+      "source_file": "601939_建设银行_2025年年度报告.pdf",
+      "pdf_page": 14,
+      "text_file": "audit_pages\\601939-p0014.txt",
+      "text_sha256": "fc3ebd4c808874a7f2edee72bc3866e8e192a2b34a3447b9cd786676cc9773a3"
+    },
+    {
+      "company": "建设银行",
+      "source_file": "601939_建设银行_2025年年度报告.pdf",
+      "pdf_page": 33,
+      "text_file": "audit_pages\\601939-p0033.txt",
+      "text_sha256": "d798bd1d8dec8b9e4d8f25c954e9f6bb485dc49ed2d79e93e430f2950896dc60"
+    },
+    {
+      "company": "建设银行",
+      "source_file": "601939_建设银行_2025年年度报告.pdf",
+      "pdf_page": 99,
+      "text_file": "audit_pages\\601939-p0099.txt",
+      "text_sha256": "ed7d4b62a20e4168ce5c28acaf587611ba6f2295c520619e58cdf2ff3b52939a"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "pdf_page": 11,
+      "text_file": "audit_pages\\601288-p0011.txt",
+      "text_sha256": "9693b96d8b3f3f4ba46aa45ffff7fcde4ccbf45929e75390747e22f04a4ccbe8"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "pdf_page": 13,
+      "text_file": "audit_pages\\601288-p0013.txt",
+      "text_sha256": "add0b0885486fd16d48a3a59e9c6b9b30c3918e8db82e9d27f4aafb3e3256c9d"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "pdf_page": 18,
+      "text_file": "audit_pages\\601288-p0018.txt",
+      "text_sha256": "0a305f3268a384ff388f1abdd9eaf915b7cb75082c6486c8c2d1d8ac92d595ae"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "pdf_page": 398,
+      "text_file": "audit_pages\\601288-p0398.txt",
+      "text_sha256": "52719b105d2d6223508273d48583ea7a1fd1f03b2602fef038598eea8329dfbf"
+    },
+    {
+      "company": "中国银行",
+      "source_file": "601988_中国银行_2025年年度报告.pdf",
+      "pdf_page": 17,
+      "text_file": "audit_pages\\601988-p0017.txt",
+      "text_sha256": "8bd55defe59c605eda59fc68eaeac6eb8fb62df4d1bcab18019e13581ad5f4ab"
+    },
+    {
+      "company": "中国银行",
+      "source_file": "601988_中国银行_2025年年度报告.pdf",
+      "pdf_page": 280,
+      "text_file": "audit_pages\\601988-p0280.txt",
+      "text_sha256": "b2398c2e729d94f8cee48b4c3056006c0994b7f3ac09665442dc9a08c4f1d901"
+    },
+    {
+      "company": "中国银行",
+      "source_file": "601988_中国银行_2025年年度报告.pdf",
+      "pdf_page": 345,
+      "text_file": "audit_pages\\601988-p0345.txt",
+      "text_sha256": "f1ce9aac35f2d2efd64b5a54ebebfc3116c3b9505fa27db7aa4e4f67c1f2f187"
+    },
+    {
+      "company": "交通银行",
+      "source_file": "601328_交通银行_2025年年度报告.pdf",
+      "pdf_page": 145,
+      "text_file": "audit_pages\\601328-p0145.txt",
+      "text_sha256": "c5650ba7766f46a2f7fe9ef1303f67ef4dc7ad9a5b749fc91140cfbfc4f72cf6"
+    },
+    {
+      "company": "招商银行",
+      "source_file": "600036_招商银行_2025年年度报告.pdf",
+      "pdf_page": 22,
+      "text_file": "audit_pages\\600036-p0022.txt",
+      "text_sha256": "649d4975690fbf65696390287471e194dc14cdb6044dea23f09e74eec1e38164"
+    },
+    {
+      "company": "招商银行",
+      "source_file": "600036_招商银行_2025年年度报告.pdf",
+      "pdf_page": 46,
+      "text_file": "audit_pages\\600036-p0046.txt",
+      "text_sha256": "7d807eaf572b4052a22696f0d61be7ce73c9c0c101dae9b9137e22d901e7ebae"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "pdf_page": 103,
+      "text_file": "audit_pages\\601166-p0103.txt",
+      "text_sha256": "e250aa8af8bb97df6f1378b8a080c3ad9a07078f63f25f5d8522668dd356b7dd"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "pdf_page": 148,
+      "text_file": "audit_pages\\601166-p0148.txt",
+      "text_sha256": "05ad0b1dc37be1d650f16dcf91f1e3d761e552988f9ddaf884c3ff8a6ad15af6"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "pdf_page": 149,
+      "text_file": "audit_pages\\601166-p0149.txt",
+      "text_sha256": "bc08c3f3f559a8f1e338758d5ebb12b3b32d292b64aea5ee85b994fcd2eb64ef"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "pdf_page": 150,
+      "text_file": "audit_pages\\601166-p0150.txt",
+      "text_sha256": "69e9ba82515e6b96b9a50720485ff804af23eeef045e3ada6e05e49608d189db"
+    },
+    {
+      "company": "中信银行",
+      "source_file": "601998_中信银行_2025年年度报告.pdf",
+      "pdf_page": 10,
+      "text_file": "audit_pages\\601998-p0010.txt",
+      "text_sha256": "38a2210feba51ff1c0fdcd9970f819e1a2bf7292c847a72f66ebe676871221d5"
+    },
+    {
+      "company": "中信银行",
+      "source_file": "601998_中信银行_2025年年度报告.pdf",
+      "pdf_page": 243,
+      "text_file": "audit_pages\\601998-p0243.txt",
+      "text_sha256": "0e20dd3091c6888444ecb0dcebe0fe2d5e6116298dfc5de211fd5869dfd92c5e"
+    },
+    {
+      "company": "平安银行",
+      "source_file": "000001_平安银行_2025年年度报告.pdf",
+      "pdf_page": 19,
+      "text_file": "audit_pages\\000001-p0019.txt",
+      "text_sha256": "21454c493ccc2f25172c08e4e344037aaf4c662823737ce4188e1774398ce075"
+    },
+    {
+      "company": "平安银行",
+      "source_file": "000001_平安银行_2025年年度报告.pdf",
+      "pdf_page": 53,
+      "text_file": "audit_pages\\000001-p0053.txt",
+      "text_sha256": "3f79a4f53588e955d655d73c65ecc3b74ebc1d6b154f60588304bae15f61363f"
+    }
+  ]
+}

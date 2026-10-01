@@ -1,0 +1,673 @@
+{
+  "prepared_at": "2026-10-01T18:56:28.874443+08:00",
+  "method": "从下载的原始年报PDF提取指定页并人工核对；未使用被评测模型生成参照答案。",
+  "grading": {
+    "正确": "所要求的关键事实、单位、口径、计算和来源均成立，覆盖足够；Q8的正确拒答也算正确。",
+    "部分正确": "至少部分关键事实正确，但遗漏、覆盖不足或解释/口径/引用有问题。",
+    "错误": "关键事实错误、无有效完成、凭空补造，或对资料内问题仅拒答而无有效答案。"
+  },
+  "facts": {
+    "Q1": {
+      "银行": "工商银行",
+      "PDF页": [
+        14
+      ],
+      "单位": "人民币百万元",
+      "口径": "集团",
+      "营业收入": 838270,
+      "净利润": 370766,
+      "注意": "归母净利润368562不是题目要求的集团净利润。"
+    },
+    "Q2": {
+      "银行": "建设银行",
+      "PDF页": [
+        14
+      ],
+      "单位": "人民币百万元",
+      "口径": "集团",
+      "2025资产": 45631818,
+      "2024资产": 40571149,
+      "增加额": 5060669,
+      "增长率%": 12.47,
+      "公式": "(2025资产-2024资产)/2024资产×100%"
+    },
+    "Q3": {
+      "银行": "农业银行",
+      "PDF页": [
+        11
+      ],
+      "2025不良贷款率%": 1.27,
+      "2024不良贷款率%": 1.3,
+      "不良变动百分点": -0.03,
+      "2025拨备覆盖率%": 292.55,
+      "2024拨备覆盖率%": 299.61,
+      "拨备变动百分点": -7.06
+    },
+    "Q4": {
+      "银行": "中国银行",
+      "PDF页": [
+        8,
+        9
+      ],
+      "口径": "集团资本监管口径",
+      "核心一级资本充足率%": 12.53,
+      "资本充足率%": 18.85
+    },
+    "Q5": {
+      "银行": "招商银行",
+      "PDF页": [
+        16,
+        46
+      ],
+      "集团2025%": 1.87,
+      "集团2024%": 1.98,
+      "变动百分点": -0.11,
+      "本公司2025%": 1.92,
+      "本公司变动基点": -12,
+      "原因": [
+        "存量房贷利率及LPR下调、有效信贷需求不足影响贷款定价",
+        "市场利率下行影响债券、同业、票据等收益率",
+        "低成本活期增长承压、存款定期化削弱负债成本下降效果"
+      ],
+      "判定": "题目未限定集团，准确区分本公司和集团均可；至少覆盖资产与负债两端原因。"
+    },
+    "Q6": {
+      "银行": "兴业银行",
+      "PDF页": [
+        60,
+        61
+      ],
+      "可接受举措示例": [
+        "绿色与转型金融：表内外绿色融资2.46万亿元，人行口径绿色贷款11075.54亿元",
+        "绿色与科技融合：科技类企业绿色贷款4197.73亿元",
+        "区域协作：京津冀、长三角、粤港澳等区域绿色贷款5322亿元；西部873.82亿元",
+        "碳金融创新：创新业务1228笔、1013.87亿元；企业碳账户5.15万户、个人778.42万户",
+        "集团综合绿色服务：绿色租赁、信托、基金1498.31亿元，ESG及绿色理财累计发行3939.04亿元"
+      ],
+      "判定": "至少3个不同举措，数据要与对应举措、时点、单位一致；例子不是穷尽清单。"
+    },
+    "Q7": {
+      "单位": "人民币百万元",
+      "口径": "合并营业收入与归母净利润",
+      "交通银行": {
+        "PDF页": [
+          11
+        ],
+        "营业收入": 265071,
+        "营业收入同比%": 2.02,
+        "归母净利润": 95622,
+        "归母同比%": 2.18
+      },
+      "中信银行": {
+        "PDF页": [
+          17,
+          443
+        ],
+        "营业收入": 212475,
+        "营业收入同比%": -0.55,
+        "归母净利润": 70618,
+        "归母同比%": 2.98
+      },
+      "注意": "中信表中“归属于本行股东”70618与PDF443的归母合并净利润对应。"
+    },
+    "Q8": {
+      "银行": "平安银行",
+      "PDF页": [
+        17,
+        25
+      ],
+      "预期": "明确无法仅从2025年报得到2026年第三季度实际净利润，不捏造，不将预测或2025季度数据替代实际值。",
+      "判定": "这是预设资料范围之外的问题；正确拒答算正确。不能把其它题的检索漏召回拒答同样算正确。"
+    },
+    "Q9": {
+      "最低": [
+        "招商银行"
+      ],
+      "最高并列": [
+        "工商银行",
+        "建设银行"
+      ],
+      "数据%": {
+        "工商银行": 1.31,
+        "建设银行": 1.31,
+        "农业银行": 1.27,
+        "中国银行": 1.23,
+        "交通银行": 1.28,
+        "招商银行": 0.94,
+        "兴业银行": 1.08,
+        "浦发银行": 1.26,
+        "中信银行": 1.15,
+        "平安银行": 1.05
+      },
+      "PDF页": {
+        "工商银行": 16,
+        "建设银行": 15,
+        "农业银行": 11,
+        "中国银行": 8,
+        "交通银行": 12,
+        "招商银行": 16,
+        "兴业银行": 91,
+        "浦发银行": 29,
+        "中信银行": 18,
+        "平安银行": 17
+      },
+      "口径注意": "逐家沿用原报告口径。交行标注集团监管口径；兴业原文公司口径须保留，不强行统一为集团。其他报告中明确集团的指标标注集团；农业结合财务摘要说明，不能把行业1.50%误作本行指标。",
+      "判定": "完整正确须覆盖10家、升序及并列极值正确、引用有支持；资料存在而未召回属于系统覆盖失败，诚实列缺证只计部分正确。"
+    },
+    "Q10": {
+      "逐行基准": {
+        "工商银行": {
+          "PDF页": [
+            16,
+            21,
+            27
+          ],
+          "2025%": 1.28,
+          "2024%": 1.42,
+          "要点": "LPR及存款期限结构影响；改善存款成本、推动综合服务。"
+        },
+        "建设银行": {
+          "PDF页": [
+            15,
+            25
+          ],
+          "2025%": 1.34,
+          "2024%": 1.51,
+          "要点": "LPR和低市场利率压低收益；调资产负债结构、加强定价。"
+        },
+        "农业银行": {
+          "PDF页": [
+            11,
+            25,
+            28
+          ],
+          "2025%": 1.28,
+          "2024%": 1.42,
+          "要点": "LPR及低市场利率压低资产收益；落实存款利率调整机制、优化存款结构。"
+        },
+        "中国银行": {
+          "PDF页": [
+            8,
+            17
+          ],
+          "2025%": 1.26,
+          "2024%": 1.4,
+          "要点": "境内LPR及外币市场利率下降；量价协同、存款成本管控。"
+        },
+        "交通银行": {
+          "PDF页": [
+            12,
+            39
+          ],
+          "2025%": 1.2,
+          "2024%": 1.27,
+          "要点": "LPR、行业竞争及证券投资收益下行；业务结构调整、动态定价。"
+        },
+        "招商银行": {
+          "PDF页": [
+            16,
+            46
+          ],
+          "2025%": 1.87,
+          "2024%": 1.98,
+          "要点": "房贷及LPR下调、需求不足、存款定期化；有效资产组织、低成本存款、高成本负债压降。"
+        },
+        "兴业银行": {
+          "PDF页": [
+            29,
+            40,
+            78,
+            79
+          ],
+          "2025%": 1.71,
+          "2024%": 1.82,
+          "要点": "生息资产收益3.72%至3.24%，负债成本2.17%至1.74%；资产结构优化、结算存款与灵活定价。"
+        },
+        "浦发银行": {
+          "PDF页": [
+            28,
+            58,
+            72
+          ],
+          "2025%": 1.42,
+          "2024%": 1.42,
+          "要点": "资产收益与负债成本同降46基点，息差持平；主动资产负债管理、提高一般贷款及存款占比。"
+        },
+        "中信银行": {
+          "PDF页": [
+            17,
+            52
+          ],
+          "2025%": 1.63,
+          "2024%": 1.77,
+          "要点": "LPR、按揭重定价、需求不足；增高减低资产结构、压票据、负债结构优化。"
+        },
+        "平安银行": {
+          "PDF页": [
+            7,
+            17,
+            25,
+            26
+          ],
+          "2025%": 1.78,
+          "2024%": 1.87,
+          "要点": "贷款利率下行与业务结构调整；低成本及活期存款吸收、负债成本下降、降本增效。"
+        }
+      },
+      "判定": "完整正确需逐家覆盖变化、原因、措施与来源，并有共同点及差异；仅覆盖少数银行算部分或错误，不能推广到10家。"
+    }
+  },
+  "source_snapshots": [
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047240.PDF",
+      "source_sha256": "e2edab73032f143aad881f612382bc613c8b96b424bb197b125d64a0ef23c78b",
+      "pdf_page": 14,
+      "text_file": "reference_pages\\601398-p0014.txt",
+      "text_sha256": "23329f9311ccec1926cc6eb0305e8cbfd2ec929782ca020ed1c0aad7449514e6",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047240.PDF",
+      "source_sha256": "e2edab73032f143aad881f612382bc613c8b96b424bb197b125d64a0ef23c78b",
+      "pdf_page": 16,
+      "text_file": "reference_pages\\601398-p0016.txt",
+      "text_sha256": "5f219193457a35fceb3d1767c1b2f86d4b2ccbd8adf400cc781b60fb66f60e9c",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047240.PDF",
+      "source_sha256": "e2edab73032f143aad881f612382bc613c8b96b424bb197b125d64a0ef23c78b",
+      "pdf_page": 21,
+      "text_file": "reference_pages\\601398-p0021.txt",
+      "text_sha256": "b3e723141b32cf17ddfddfab3c3ed4f80b886314a9beb1c2fa0abb841c1550b1",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "工商银行",
+      "source_file": "601398_工商银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047240.PDF",
+      "source_sha256": "e2edab73032f143aad881f612382bc613c8b96b424bb197b125d64a0ef23c78b",
+      "pdf_page": 27,
+      "text_file": "reference_pages\\601398-p0027.txt",
+      "text_sha256": "9d9fd8549001e8293ae8b2c42c713bcf5be480a9d7d8cce74b8a949716613b68",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "建设银行",
+      "source_file": "601939_建设银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225046718.PDF",
+      "source_sha256": "a3192d55b8bfe822458244f888fa89ef168750f7de3e60b8f04688178fbeac54",
+      "pdf_page": 14,
+      "text_file": "reference_pages\\601939-p0014.txt",
+      "text_sha256": "fc3ebd4c808874a7f2edee72bc3866e8e192a2b34a3447b9cd786676cc9773a3",
+      "text_extractor": "pdfplumber"
+    },
+    {
+      "company": "建设银行",
+      "source_file": "601939_建设银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225046718.PDF",
+      "source_sha256": "a3192d55b8bfe822458244f888fa89ef168750f7de3e60b8f04688178fbeac54",
+      "pdf_page": 15,
+      "text_file": "reference_pages\\601939-p0015.txt",
+      "text_sha256": "f8f8fe18902fc04eb43597412d3096611e1f4749d2b3c958f74cde94e970c33a",
+      "text_extractor": "pdfplumber"
+    },
+    {
+      "company": "建设银行",
+      "source_file": "601939_建设银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225046718.PDF",
+      "source_sha256": "a3192d55b8bfe822458244f888fa89ef168750f7de3e60b8f04688178fbeac54",
+      "pdf_page": 25,
+      "text_file": "reference_pages\\601939-p0025.txt",
+      "text_sha256": "a9cb21f27c284c5b4218dd558aa2b6f955e06488ab1661752d3d5f6a39e48ea2",
+      "text_extractor": "pdfplumber"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225056196.PDF",
+      "source_sha256": "9353f9a05d9cdf19cabef785e4c633fbd29ab63e7933dcd3c472ca02bc691d83",
+      "pdf_page": 10,
+      "text_file": "reference_pages\\601288-p0010.txt",
+      "text_sha256": "24462143367963e07a5efa1589747eaf689d358a4629800fffe993554815ccf7",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225056196.PDF",
+      "source_sha256": "9353f9a05d9cdf19cabef785e4c633fbd29ab63e7933dcd3c472ca02bc691d83",
+      "pdf_page": 11,
+      "text_file": "reference_pages\\601288-p0011.txt",
+      "text_sha256": "9693b96d8b3f3f4ba46aa45ffff7fcde4ccbf45929e75390747e22f04a4ccbe8",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225056196.PDF",
+      "source_sha256": "9353f9a05d9cdf19cabef785e4c633fbd29ab63e7933dcd3c472ca02bc691d83",
+      "pdf_page": 25,
+      "text_file": "reference_pages\\601288-p0025.txt",
+      "text_sha256": "68f6ac4c2bfe17a1f0b34473fc7df65529ab39a28d272f5c00003f15ae4e6c5e",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "农业银行",
+      "source_file": "601288_农业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225056196.PDF",
+      "source_sha256": "9353f9a05d9cdf19cabef785e4c633fbd29ab63e7933dcd3c472ca02bc691d83",
+      "pdf_page": 28,
+      "text_file": "reference_pages\\601288-p0028.txt",
+      "text_sha256": "674e1c54217d1c20d8aec959b657c45ffbc910757a136189b278575cb873b5d4",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "中国银行",
+      "source_file": "601988_中国银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225058470.PDF",
+      "source_sha256": "e29e520cdbc46aa3e9502506bfe8d085bbe98fc5a2aaa5ce22fe73a92f5455ae",
+      "pdf_page": 8,
+      "text_file": "reference_pages\\601988-p0008.txt",
+      "text_sha256": "d5af29aedce9966efd06441b561b3658220137bca01206f398dd25d29c5bba36",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "中国银行",
+      "source_file": "601988_中国银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225058470.PDF",
+      "source_sha256": "e29e520cdbc46aa3e9502506bfe8d085bbe98fc5a2aaa5ce22fe73a92f5455ae",
+      "pdf_page": 9,
+      "text_file": "reference_pages\\601988-p0009.txt",
+      "text_sha256": "afd42ed77df22114ea0dc2c1ed72e999963f8ca007e3b53f731c656ef170f9f3",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "中国银行",
+      "source_file": "601988_中国银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225058470.PDF",
+      "source_sha256": "e29e520cdbc46aa3e9502506bfe8d085bbe98fc5a2aaa5ce22fe73a92f5455ae",
+      "pdf_page": 17,
+      "text_file": "reference_pages\\601988-p0017.txt",
+      "text_sha256": "8bd55defe59c605eda59fc68eaeac6eb8fb62df4d1bcab18019e13581ad5f4ab",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "交通银行",
+      "source_file": "601328_交通银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047367.PDF",
+      "source_sha256": "df52361e0a40791e9a37634437700b168eb2f76a2db41fe70b6d17099a549963",
+      "pdf_page": 11,
+      "text_file": "reference_pages\\601328-p0011.txt",
+      "text_sha256": "e73d2b08c6dd35aaff88e537dbd5038ec0a70161768eec38c0352889f8caa966",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "交通银行",
+      "source_file": "601328_交通银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047367.PDF",
+      "source_sha256": "df52361e0a40791e9a37634437700b168eb2f76a2db41fe70b6d17099a549963",
+      "pdf_page": 12,
+      "text_file": "reference_pages\\601328-p0012.txt",
+      "text_sha256": "ed750919e0931a97e176f5e4b9f9b373ef3034d7ec1a9278c2d1c1aeddd3f133",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "交通银行",
+      "source_file": "601328_交通银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047367.PDF",
+      "source_sha256": "df52361e0a40791e9a37634437700b168eb2f76a2db41fe70b6d17099a549963",
+      "pdf_page": 39,
+      "text_file": "reference_pages\\601328-p0039.txt",
+      "text_sha256": "3226b88d0a1b06dc2bccb636b8dcaa53ece23f561445ae0ac23b780254dbc6fb",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "招商银行",
+      "source_file": "600036_招商银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047590.PDF",
+      "source_sha256": "abe612a273468072b176dd51ea460c1e1596f8ca729cbc6db3fa28ba9a57ea79",
+      "pdf_page": 16,
+      "text_file": "reference_pages\\600036-p0016.txt",
+      "text_sha256": "4b51aad40d15d4e44395ee42dac6f0ed0299dccdaa355760e477636e6b144c8d",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "招商银行",
+      "source_file": "600036_招商银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225047590.PDF",
+      "source_sha256": "abe612a273468072b176dd51ea460c1e1596f8ca729cbc6db3fa28ba9a57ea79",
+      "pdf_page": 46,
+      "text_file": "reference_pages\\600036-p0046.txt",
+      "text_sha256": "7d807eaf572b4052a22696f0d61be7ce73c9c0c101dae9b9137e22d901e7ebae",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 16,
+      "text_file": "reference_pages\\601166-p0016.txt",
+      "text_sha256": "91ef212a26ccb2b96a731850d37a3f26ba3d7c769738eaf352f122b49e298ead",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 28,
+      "text_file": "reference_pages\\601166-p0028.txt",
+      "text_sha256": "003c06928a74570c3c9bebc56257ed3e0bbdfece235157069262f32a5822d0c4",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 29,
+      "text_file": "reference_pages\\601166-p0029.txt",
+      "text_sha256": "2a8f72f8bbc2826dcf7a4ffda54203b1f68a0ea0ad97727de4af6d416b17b06f",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 30,
+      "text_file": "reference_pages\\601166-p0030.txt",
+      "text_sha256": "e9f80792c16f49fffba86ddddb45a9e4c99792b678aad10d9534488f6e921dd7",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 40,
+      "text_file": "reference_pages\\601166-p0040.txt",
+      "text_sha256": "6849153accfa9ebaa148c66268d3acbb7f3cc39f4856e07a924425be07e7c5b2",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 60,
+      "text_file": "reference_pages\\601166-p0060.txt",
+      "text_sha256": "4c2358e823a792778b53f16500f86a807bb6ef260c52811ab2449770c0077ce8",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 61,
+      "text_file": "reference_pages\\601166-p0061.txt",
+      "text_sha256": "9abcf419ce2391408d2e603314bb6108f33fb5d32c714d4f1646408c4f35f267",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 78,
+      "text_file": "reference_pages\\601166-p0078.txt",
+      "text_sha256": "a7ceb1a61e5f03a1fb186a17f2b79d7508d043cf036fd47ea2453c92268b4de0",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 79,
+      "text_file": "reference_pages\\601166-p0079.txt",
+      "text_sha256": "eab8b4aa46d63dd7f3e31c641edceddd44798d8811e41c723ffd0b1182c003a0",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "兴业银行",
+      "source_file": "601166_兴业银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225039240.PDF",
+      "source_sha256": "8ad7c2264a38441715cafd485a9214f0c180bc1eb037837bb0403013fadd586c",
+      "pdf_page": 91,
+      "text_file": "reference_pages\\601166-p0091.txt",
+      "text_sha256": "abce07da8315de888441369a04ab3062161c6495c163ba359c69a6163f4937c9",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "浦发银行",
+      "source_file": "600000_浦发银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062336.PDF",
+      "source_sha256": "e4d1cff0461c0ef24d26551ca68e31ad323a1b3eadd8a3c03f00feada364de22",
+      "pdf_page": 28,
+      "text_file": "reference_pages\\600000-p0028.txt",
+      "text_sha256": "9a854b7fbe05706cc9523c11dfe77964fa893bc0f5f93cee0bdd9a6f010d42ce",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "浦发银行",
+      "source_file": "600000_浦发银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062336.PDF",
+      "source_sha256": "e4d1cff0461c0ef24d26551ca68e31ad323a1b3eadd8a3c03f00feada364de22",
+      "pdf_page": 29,
+      "text_file": "reference_pages\\600000-p0029.txt",
+      "text_sha256": "ad70da42e1638c50c5e1f916f4028003981a02311ed11ee1637e65a3ec03454b",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "浦发银行",
+      "source_file": "600000_浦发银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062336.PDF",
+      "source_sha256": "e4d1cff0461c0ef24d26551ca68e31ad323a1b3eadd8a3c03f00feada364de22",
+      "pdf_page": 58,
+      "text_file": "reference_pages\\600000-p0058.txt",
+      "text_sha256": "8c81a28c1c97e0cd302823577d3fb3ab0d2520a6440cab8ecf024dc251311385",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "浦发银行",
+      "source_file": "600000_浦发银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225062336.PDF",
+      "source_sha256": "e4d1cff0461c0ef24d26551ca68e31ad323a1b3eadd8a3c03f00feada364de22",
+      "pdf_page": 72,
+      "text_file": "reference_pages\\600000-p0072.txt",
+      "text_sha256": "0e63cf25f5e414f515c5543c1a32477c2e0720d0f9eb2a5040835f6c979d7aed",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "中信银行",
+      "source_file": "601998_中信银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022321.PDF",
+      "source_sha256": "df2c1ba38e71593c54779a2ada84a7af2deb8da80434539ac613639599bf35e2",
+      "pdf_page": 17,
+      "text_file": "reference_pages\\601998-p0017.txt",
+      "text_sha256": "13d819d4aa2799ffe76e37f9530b6bc0d651953e81e122444dc9ced98c7d49be",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "中信银行",
+      "source_file": "601998_中信银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022321.PDF",
+      "source_sha256": "df2c1ba38e71593c54779a2ada84a7af2deb8da80434539ac613639599bf35e2",
+      "pdf_page": 18,
+      "text_file": "reference_pages\\601998-p0018.txt",
+      "text_sha256": "bd66bfa49a953a89b7900d0352ca5fe2122f5a37df6c9097baf17ae1faa18e0f",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "中信银行",
+      "source_file": "601998_中信银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022321.PDF",
+      "source_sha256": "df2c1ba38e71593c54779a2ada84a7af2deb8da80434539ac613639599bf35e2",
+      "pdf_page": 52,
+      "text_file": "reference_pages\\601998-p0052.txt",
+      "text_sha256": "d81ecd83633945133baf9eaa3f56fbd2eb25b2bcfdc026c8ae6a75d97ab86632",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "中信银行",
+      "source_file": "601998_中信银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022321.PDF",
+      "source_sha256": "df2c1ba38e71593c54779a2ada84a7af2deb8da80434539ac613639599bf35e2",
+      "pdf_page": 443,
+      "text_file": "reference_pages\\601998-p0443.txt",
+      "text_sha256": "c8cd56a733bd52ddb3f960e9b9904119770bdaa899ec717f4c58b20638bc1386",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "平安银行",
+      "source_file": "000001_平安银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022887.PDF",
+      "source_sha256": "2273565ecbe1b32536631fd4a019a4f4a990f4c793cfd5b70eae90d44d3ff16c",
+      "pdf_page": 7,
+      "text_file": "reference_pages\\000001-p0007.txt",
+      "text_sha256": "6636612db17b13917f71880935bf1d33ad625b2f1eacb3709539a395c6f0037e",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "平安银行",
+      "source_file": "000001_平安银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022887.PDF",
+      "source_sha256": "2273565ecbe1b32536631fd4a019a4f4a990f4c793cfd5b70eae90d44d3ff16c",
+      "pdf_page": 17,
+      "text_file": "reference_pages\\000001-p0017.txt",
+      "text_sha256": "6d45fe7ee9c675ebd6d099e1d36fdc2e8bee9aff5a6c48386806083c7dd9f5bb",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "平安银行",
+      "source_file": "000001_平安银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022887.PDF",
+      "source_sha256": "2273565ecbe1b32536631fd4a019a4f4a990f4c793cfd5b70eae90d44d3ff16c",
+      "pdf_page": 25,
+      "text_file": "reference_pages\\000001-p0025.txt",
+      "text_sha256": "5df1724e0707c52720c4b0e10e577443403a879fbd0eaced12c62f44978058be",
+      "text_extractor": "pypdf"
+    },
+    {
+      "company": "平安银行",
+      "source_file": "000001_平安银行_2025年年度报告.pdf",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022887.PDF",
+      "source_sha256": "2273565ecbe1b32536631fd4a019a4f4a990f4c793cfd5b70eae90d44d3ff16c",
+      "pdf_page": 26,
+      "text_file": "reference_pages\\000001-p0026.txt",
+      "text_sha256": "91b826fc94e75a062bf087d0c757db2b0b71e2ebe1aee53f4a19c093547eb4ee",
+      "text_extractor": "pypdf"
+    }
+  ],
+  "verification_notes": "已检查原PDF渲染对照图；建设银行用pdfplumber重新读取原PDF，避免pypdf中文字体映射异常。"
+}
